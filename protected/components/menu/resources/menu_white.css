@@ -1,0 +1,47 @@
+
+ul.menu {  list-style:none; margin:0;  padding:0;  position: absolute;
+}
+ul.menu * {  margin:0;  padding:0;  width:78px;height:28px;   background: #6598b8;
+ }
+ul.menu a {  display:inline;  color:#fff;  text-decoration:none;
+}
+ul.menu a:hover {    background: url(images/hand.png) top right no-repeat;
+/*background:url(images/tape78.png)  top center no-repeat;*/
+}
+ul.menu li {  position:relative;  float:left; margin-left: 10px;
+}
+ul.menu ul {  position:absolute;  top:30px;  left:0;  display:none;  opacity:0;  list-style:none;
+}
+ul.menu ul li {  position:relative;  border:none;   width:78px;height:28px; margin:1;  padding:1;
+}
+ul.menu ul li a {  display:block;  padding:1px 2px 2px 1px;
+}
+ul.menu ul ul {  left:2em;  top:-1px;
+}
+ul.menu .menulink {  border: none;  padding:1px 7px 7px;margin: 1px;  font-weight:bold;  width:78px;height:28px;
+}
+ul.menu .disabled {  border: none;  padding:1px 7px 7px;  font-weight:bold;   width:78px;height:28px; color:#6598b8; /* clear blue */
+}
+
+
+/* not used here on DiscardedTeenz*/
+ul.menu .disabled:hover {
+}
+ul.menu .menu:hover {
+ color: #000;
+}
+ul.menu .sub{
+  height: 10px;
+}
+ul.menu .arrow{
+  top:-10px;
+  padding-left:10px;
+  position:relative;
+  float:right
+}
+ul.menu .sub:hover {
+  height: 10px;
+}
+ul.menu .topline {
+  border: none;
+}
