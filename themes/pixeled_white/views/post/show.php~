@@ -1,0 +1,31 @@
+<?php $this->renderPartial('_post',array(
+	'post'=>$post,
+)); ?>
+
+
+
+<div id="comments_wrapper">
+	<?php if($post->commentCount>=1): ?>
+	<h3>
+		<?php echo $post->commentCount>1 ? $post->commentCount . ' comments' : 'One comment'; ?>
+		to "<?php echo CHtml::encode($post->title); ?>"
+	</h3>
+	<?php endif; ?>
+
+	<?php $this->renderPartial('/comment/_list',array(
+		'comments'=>$comments,
+		'post'=>$post,
+	)); ?>
+
+	<?php  $this->widget('application.extensions.sociable.sociable',array('post'=>$post));
+	?>
+	<?php if( !Yii::app()->user->hasFlash('commentSubmittedMessage' )): ?>
+		<h3>Leave a Comment</h3>
+	<?php endif; ?>
+
+	<?php $this->renderPartial('/comment/_form',array(
+		'comment'=>$newComment,
+		'update'=>false,
+	)); ?>
+
+</div><!-- comments -->

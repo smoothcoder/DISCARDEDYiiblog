@@ -1,0 +1,12 @@
+<?php $this->pageTitle=Yii::app()->name . ' - Dashboard'; ?>
+
+
+
+
+
+	<?php  $this->widget('application.components.sociable.sociable',array('post'=>$post));
+	?>
+
+
+
+<br/>
