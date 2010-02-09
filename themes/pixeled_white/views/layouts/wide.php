@@ -42,8 +42,11 @@
 
 <script type="text/javascript">
 $(document).ready(function(){
+
 	$(".lightbox").lightbox({
 		fitToScreen: true,
+		fileLoadingImage : PARAMS.BASEURL+'/js/jquery-lightbox/images/loading.gif',
+		fileBottomNavCloseImage : PARAMS.BASEURL+'/js/jquery-lightbox/images/closelabel.gif',
 		imageClickClose: false
 	});
 });

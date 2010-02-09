@@ -3,8 +3,8 @@ $type=explode('/',$model->type);
 if($type[0]=='image')
 {
     $whtext=File::getHOW(Yii::app()->params['filePath'].$model->name);
+    $url=Yii::app()->baseUrl.'/uploads/file/'.$model->name;
 }
-$url=Yii::app()->baseUrl.'/uploads/file/'.$model->name;
 ?>
 
 <tr class="odd">

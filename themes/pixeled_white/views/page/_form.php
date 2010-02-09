@@ -46,7 +46,7 @@
 
 CKEDITOR.config.resize_minWidth = 570;
 CKEDITOR.config.language = '<?php echo Yii::t('lan','en'); ?>';
-var insertimageorfile="<?php echo $this->createUrl('files/admin', array('TB_iframe'=>true,'height'=>350)); ?>"
+var insertimageorfile="<?php echo $this->createUrl('filem/admin', array('TB_iframe'=>true,'height'=>350)); ?>"
 
 CKEDITOR.config.toolbar=
     [
