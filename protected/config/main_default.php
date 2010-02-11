@@ -24,7 +24,6 @@ return array(
 	'application.extensions.image',
 	'application.extensions.my97DatePicker',
 	'application.extensions.WB_Email',
-	'application.extensions.fckeditor',
     ),
 
     //-- Application components
@@ -35,13 +34,6 @@ return array(
 			array(
 			'class'=>'CFileLogRoute',
  			'levels'=>'error, warning',
-// 			'levels'=>'error, warning, trace',		//for debugtoolbar mode
-			),
-/*			array( // configuration for the debugtoolbar
-			'class'=>'XWebDebugRouter',		//for debugtoolbar mode
-			'config'=>'alignLeft, opaque, runInDebug, fixedPos, collapsed, yamlStyle',//for debugtoolbar mode
-			'levels'=>'error, warning, trace, profile, info',//for debugtoolbar mode
-			),*/
 		),
 	),
         'image'=>array(
@@ -63,7 +55,7 @@ return array(
 
       	'db'=>array(
 		'class' => 'CDbConnection',
-		'connectionString'=>'mysql:host=localhost;dbname=DISCARDEDyiiblog',
+		'connectionString'=>'mysql:host=localhost;dbname=discardedyiiblog',
                  'username'=>'yiidatabaseuser',
                  'password'=>'yiidbpassword',
 	         'charset'=>'utf8'

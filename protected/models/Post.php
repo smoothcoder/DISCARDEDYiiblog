@@ -58,6 +58,8 @@ class Post extends CActiveRecord
             array('titleLink','url'),
             array('status','in','range'=>array(0,1,2,3)),
             array('tags','match','pattern'=>'/^[А-Яа-я\s\w,-]+$/u','message'=>Yii::t('lan','Tags can only contain word characters.')),
+	    array('publishTime','safe'),
+	    array('updateTime','safe'),
         );
     }
 
