@@ -7,6 +7,9 @@
 			title="">DISCARDEDteenz.dA</a></li>
 	<li><a href="http://code.google.com/p/yiiblognew//"  target="_blank"
 			title="Yii blognew">Yii Blognew</a></li>
+	<li><a href="http://yiiradiio.mehesz.net/"  target="_blank"
+			title="yiiradiio">Yii Radiio</a></li>
+
 	<li><a href="http://frozenfingerz.deviantart.com/"  target="_blank"
 			title="">FrozenFingerz.dA</a></li>
 	<li><a href="http://code.google.com/p/yii-blogdemo-enhanced/" target="_blank"

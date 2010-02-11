@@ -11,8 +11,6 @@
 		<?php if(Yii::app()->user->isGuest): ?>
 			<div id="adsense_header468x60right">
 				<?php echo Yii::app()->params['adsense_header468x60right']; ?>
-
-
 			</div><!-- adsense-->
 		<?php else: ?>
 			<div id="adsense_header468x40right">

@@ -13,7 +13,7 @@
 
 	<?php echo CHtml::errorSummary($model); ?>
 
-	<?php echo ($type[0]=='image') ? (($whtext)?CHtml::link(CHtml::image($url, $model->alt, array($whtext=>Yii::app()->params['imageThumbnailBoundingbox'])), $url, array('class'=>'highslide')):CHtml::image($url, $model->alt)) : CHtml::image(Yii::app()->baseUrl.'/images/file.png'); ?>
+	<?php echo ($type[0]=='image') ? (($whtext)?CHtml::link(CHtml::image($url, $model->alt, array($whtext=>Yii::app()->params['imageThumbnailBoundingBox'])), $url, array('class'=>'highslide')):CHtml::image($url, $model->alt)) : CHtml::image(Yii::app()->baseUrl.'/images/file.png'); ?>
 	<div class="row">
 		<?php echo CHtml::activeLabel($model,'name'); ?>
 		<?php echo CHtml::activeTextField($model,'name',array('size'=>45,'maxlength'=>64)); ?>
@@ -27,8 +27,8 @@
 	<div class='clearfloat' ></div>
 
 	<div class='row'>
-		<?php echo CHtml::activeLabel($model,'download'); ?>
-		<?php echo CHtml::activeCheckBox($model,'download').Yii::t('lan','Check for downloadable file') ; ?>
+		<?php /*echo CHtml::activeLabel($model,'download');*/ ?>
+		<?php /*echo CHtml::activeCheckBox($model,'download').Yii::t('lan','Check for downloadable file') ; */?>
 	</div>
 
 

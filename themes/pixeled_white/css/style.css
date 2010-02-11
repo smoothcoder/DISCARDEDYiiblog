@@ -449,6 +449,10 @@ a img{ border: none; }
 a:visited {color: #4141df; ;text-decoration: none;} /* lien visité */
 a:hover { color: #FF0099;text-decoration: none; }
 a:active { color: #4141df;text-decoration: none; }
+blockquote {    margin: 1em 20px;    padding-left: 50px;
+	border-right: 5px solid #FCE;
+	background: transparent url(../images/quote.jpeg) no-repeat; }
+
 div .errorMessage { color: red; float: left; font-size: 0.8em; }
 div .errorSummary { color: red;  font-size: 0.8em; }
 div .cleared { clear:both; }
